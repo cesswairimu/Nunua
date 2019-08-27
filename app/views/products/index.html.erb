@@ -4,13 +4,11 @@
 <hr>
 
 <table>
-    <tfoot>
+    <thead>
         <tr>
-            <td colspan="3">
-                <%= link_to 'New Product', new_product_path %>
-            </td>
+            <%= link_to 'New Product', new_product_path, class: 'button' %>
         </tr>
-    </tfoot>
+    </thead>
 
     <tbody>
         <% @products.each do |product| %>
