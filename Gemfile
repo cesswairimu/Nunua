@@ -19,6 +19,8 @@ group :development, :test do
   gem 'faker'
   gem 'rspec-rails'
   gem 'factory_bot'
+  gem 'minitest'
+  gem  'minitest-reporters'
 end
 
 group :development do
